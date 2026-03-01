@@ -483,6 +483,8 @@ Once the relocations are applied, the decompressor code jumps to the kernel entr
 
 Now we are in the kernel 🎉🎉🎉
 
+The kernel entrypoint is the `start_kernel` function from [init/main.c](https://github.com/torvalds/linux/blob/master/init/main.c). This is our next stop, but it will be in the next set of chapters - [Kernel initialization process](https://github.com/0xAX/linux-insides/tree/master/Initialization).
+
 ## Conclusion
 
 This is the end of the third part about Linux kernel insides. If you have questions or suggestions, feel free ping me on X - [0xAX](https://twitter.com/0xAX), drop me an [email](mailto:anotherworldofworld@gmail.com), or just create an [issue](https://github.com/0xAX/linux-insides/issues/new).
