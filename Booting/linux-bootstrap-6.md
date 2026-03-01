@@ -295,7 +295,7 @@ After these sanity checks, the decompressor code begins scanning the system's av
 
 The scanning consists of three potential stages:
 
-1. Scan the memory regions that are not preserved by the [KHO](https://docs.kernel.org/core-api/kho/concepts.html#kho-concepts).
+1. Scan the memory regions that are not preserved by the [KHO](https://docs.kernel.org/next/kho/concepts.html).
 2. Scan the memory regions presented by the [EFI](https://en.wikipedia.org/wiki/Uefi) memory map.
 3. Fallback to scanning the memory regions reported by the [e820](https://en.wikipedia.org/wiki/E820) BIOS service.
 
@@ -418,4 +418,4 @@ The next chapter will be about kernel initialization and we will study the first
 - [e820](https://en.wikipedia.org/wiki/E820)
 - [Time Stamp Counter](https://en.wikipedia.org/wiki/Time_Stamp_Counter)
 - [rdrand instruction](https://en.wikipedia.org/wiki/RdRand)
-- [Previous part](./linux-bootstrap-5.md)
+- [Previous part](linux-bootstrap-5.md)

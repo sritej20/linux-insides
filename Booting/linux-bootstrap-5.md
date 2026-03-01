@@ -499,4 +499,4 @@ Here is the list of the links that you can find useful when reading this chapter
 - [Flat memory model](https://en.wikipedia.org/wiki/Flat_memory_model)
 - [Address space layout randomization](https://en.wikipedia.org/wiki/Address_space_layout_randomization)
 - [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
-- [Previous part](https://github.com/0xAX/linux-insides/blob/v4.16/Booting/linux-bootstrap-4.md)
+- [Previous part](linux-bootstrap-4.md)
